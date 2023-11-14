@@ -53,7 +53,8 @@ a, .btn, button, span, p, i, input, select, textarea, li, img, svg path, ::after
     margin-left: 43px;
 }
 .dark{
-    background-color: #1178efce;
+  background: rgb(2,25,47);
+  background: linear-gradient(157deg, rgba(2,25,47,1) 14%, rgba(56,157,213,1) 87%);
 }
 .dark .slider-content h2,.dark .section-title h2,.dark .skills-title h2,.dark .skills-title h6,.dark .section-title h6,.dark .testimonial-area h2,.dark .about-user .text h5,.dark h1,.dark h2,.dark h3,.dark h4,.dark h5,.dark h6,.dark .scrollbox__item,.dark .skill-name,.dark .s-slider-content h6,.dark .slider-content .expert strong,.dark .btn.ss-btn.active{
     color: #fff;
