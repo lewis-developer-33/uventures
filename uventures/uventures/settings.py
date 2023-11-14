@@ -26,9 +26,7 @@ SECRET_KEY = 'django-insecure-d@5smxw!coid4&w!7iuw#)axyqeix02*rid(&vg*a+s$7&bly0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    '.vercel.app', '.now.sh'
-]
+ALLOWED_HOSTS = ['.vercel.app', '127.0.0.1','localhost']
 
 
 # Application definition
@@ -40,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'backend.apps.BackendConfig'
+    'backend.apps.BackendConfig',
+    'uventures'
 ]
 
 MIDDLEWARE = [
@@ -72,7 +71,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'uventures.wsgi.application'
+# WSGI_APPLICATION = 'uventures.wsgi.application'
+WSGI_APPLICATION = 'uventures.wsgi.app'
 
 
 # Database
