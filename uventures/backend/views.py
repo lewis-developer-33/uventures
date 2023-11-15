@@ -1,4 +1,6 @@
 from django.shortcuts import render
+from django.core.mail import BadHeaderError, send_mail
+from django.http import HttpResponse, HttpResponseRedirect
 
 # Create your views here.
 def index(request):
@@ -17,4 +19,5 @@ def team(request):
     return render(request, 'team.html')
 def singleteam(request):
     return render(request, 'singleteam.html')
+
 

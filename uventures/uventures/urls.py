@@ -30,6 +30,5 @@ urlpatterns = [
     path('blog/', views.blog, name='blog'),
     path('team/', views.team, name='team'),
     path('singleteam/', views.singleteam, name='singleteam'),
-
     path('admin/', admin.site.urls),
 ]
